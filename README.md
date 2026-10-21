@@ -7,8 +7,9 @@ This uses the official Python Docker image.
 ## Installation (Dockerfile)
 1. `git clone https://github.com/0daysophie/docker-rss2discordwebhook`
 2. `cd docker-rss2discordwebhook`
-3. `docker build -t docker-rss2discordwebhook .`
-4. `docker run -it --rm --name docker-rss2discordwebhook-1 docker-rss2discordwebhook`
+3. Modify webhook.py accordingly
+4. `docker build -t docker-rss2discordwebhook .`
+5. `docker run -it --rm --name docker-rss2discordwebhook-1 docker-rss2discordwebhook`
 
 
 ## Installation (UGreen NAS Docker applet):
