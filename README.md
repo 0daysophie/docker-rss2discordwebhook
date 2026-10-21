@@ -4,6 +4,13 @@ A script that fetches a RSS feed every 24 hours and sends the feed items to a Di
 The current example config is built for the BleepingComputer RSS feed.
 This uses the official Python Docker image.
 
+## Installation (Dockerfile)
+1. `git clone https://github.com/0daysophie/docker-rss2discordwebhook`
+2. `cd docker-rss2discordwebhook`
+3. `docker build -t docker-rss2discordwebhook .`
+4. `docker run -it --rm --name docker-rss2discordwebhook-1 docker-rss2discordwebhook`
+
+
 ## Installation (UGreen NAS Docker applet):
 1. Get the official Python Docker image
 2. Set the Webhook URL in the webhook.py script and modify the script accordingly
